@@ -1,0 +1,294 @@
+
+
+.allservices-header{
+    padding: 9% 0% 7% 11%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.allservices-header-heading{
+    font-family: 'Rubik',sans-serif;
+    font-weight: 700;
+    font-size: 550%;
+    letter-spacing: -2px;
+    color: #FFD909;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.allservices-main-container{
+    padding: 8% 10%;
+}
+
+.allservices-menubox{
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80;
+}
+
+.allservices-menu-heading{
+    padding: 10% 0%;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 600;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #F4F3F0;
+}
+
+.allservices-menu{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 94%;
+    padding: 7% 0% 5% 5%;
+}
+
+.allservices-menu-li{
+    padding: 3% 1%;
+    border-bottom: 1.2px dashed rgba(0,0,0,0.1);
+}
+
+.allservices-menu li a{
+    color: #9d9c9b;
+    text-decoration: none;
+}
+
+.allservices-menu li a:hover{
+    color: orangered;
+    font-weight: 700;
+}
+
+.allservices-menu-active{
+    border-bottom: 1.6px dashed rgba(0,0,0,0.2);
+    color: white;
+    font-weight: 600;
+    
+}
+
+.allservices-menubox-bottom{
+    padding: 50%;
+}
+
+.allservices-details{
+    padding: 0% 1.5%;
+}
+
+.allservices-image{
+    width: 100%;
+}
+
+.allservices-details-title{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 200%;
+    padding: 7% 0% 2% 0%;
+}
+
+.allservices-details-description{
+    font-family: 'MOntserrat', sans-serif;
+    color: #9d9c9b;
+    font-weight: 500;
+    font-size: 95%;
+    letter-spacing: -0.6px;
+    padding-bottom: 8%;
+}
+
+.they-can-help-you{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 116%;
+    padding: 2% 0%;
+}
+
+.they-can-help-you-description{
+    padding: 0% 0% 5% 0%;
+    font-family: 'MOntserrat', sans-serif;
+    color: #9d9c9b;
+    font-weight: 500;
+    font-size: 95%;
+    letter-spacing: -0.6px;
+}
+
+.allservices-helpingmember1-mainbox-padding{
+    padding: 0% 2% 0% 0%;
+}
+
+.allservices-helpingmember2-mainbox-padding{
+    padding: 0% 1%;
+}
+
+.allservices-helpingmember3-mainbox-padding{
+    padding: 0% 0% 0% 2%;
+}
+
+.allservices-helpingmember-mainbox{
+    width: 100%;
+    background-color: #F4F3F0;
+}
+
+.allservices-helpingmember-imagebox{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    color: white;
+}
+
+.allservices-helpingmember-image{
+    width: 100%;
+    filter: drop-shadow(0px 0px 80px rgba(0,0,0,0.3));
+/*    visibility: hidden;*/
+}
+
+.allservices-helpingmember-iconbox{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    padding-top: 70%;;
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+    -webkit-transition: display 2s ease-in;
+    transition: display 2s ease-in;
+}
+
+.allservices-helpingmember-imagebox:hover .allservices-helpingmember-iconbox{
+    display: block;
+/*    -webkit-transition: display 3s;*/
+}
+
+.allservices-helpingmember-iconcontainer{
+    color: white;
+    background-color: #ffd909;
+    padding: 4.5% 5%; 
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 2%;
+}
+
+.allservices-helpingmember-iconcontainer:hover{
+    background-color: #ff8a48;
+}
+
+.allservices-helpingmember-name{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 130%;
+    padding-top: 8% 
+}
+
+.allservices-helpingmember-position{
+    text-align: center;
+    color: #999999;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 90%;
+    padding-bottom: 14%;
+}
+
+.allservices-online-request-button{
+    padding: 2.4% 5.8%;
+    background: linear-gradient(to right,rgb(255,95,106),rgb(255,95,106));
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 96%;
+    letter-spacing: -0.5px;
+    border: none;
+}
+
+.allservices-online-request-button:hover{
+    background: linear-gradient(to right,rgb(255,95,106),rgb(255,00,90));
+    color: white;
+    letter-spacing: -0.4px;
+    box-shadow: -2.5px -1px 2px rgba(0,0,0,0.3) inset, -2px -1px 5px rgba(0,0,0,0.1) inset,-1px -1px 8px rgba(0,0,0,0.05) inset,3.5px 1.5px 2px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px){
+    .allservices-header{
+        padding: 24% 0% 9% 6%;
+    }
+    .allservices-header-heading{
+        font-size: 300%;
+        line-height: 100%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .allservices-details{
+        padding: 0%;
+        padding-bottom: 8%;
+    }
+    .allservices-helpingmember1-mainbox-padding{
+        padding: 4% 0% 8% 0%;
+    }
+
+    .allservices-helpingmember2-mainbox-padding{
+        padding: 2% 0%;
+    }
+
+    .allservices-helpingmember3-mainbox-padding{
+        padding: 8% 0% 4% 0%;
+    }
+    .allservices-online-request-button{
+        padding: 4% 7.5%;
+    }
+}

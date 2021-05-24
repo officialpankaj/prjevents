@@ -1,0 +1,557 @@
+ *,html{
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+
+.header{
+    background-image: url(../images/aboutus-header-background.jpg);
+    color: white;
+    padding: 8% 0% 5% 0%;
+    text-align: center;
+}
+
+.header-heading{
+    font-family: 'Rubik', sans-serif;
+    font-size: 280%;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.3);
+}
+
+.header-slogan{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-curve-line{
+    width: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+.aboutus-section{
+    padding: 8% 0% 8% 11%
+}
+
+.aboutus-section-heading{
+    font-family: 'Rubik', sans-serif;
+    font-size: 280%;
+    font-weight: 700;
+    color: #FC6767;
+    line-height: 110%;
+}
+
+.aboutus-section-description{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 100%;
+    font-weight: 500;
+    padding: 5% 8% 5% 0%;
+}
+
+.aboutus-section-button{
+    background-color: #FC6767;
+    padding: 2.2% 3.2%;
+    font-family: 'MOntserrat', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+}
+
+.aboutus-section-button:hover{
+    box-shadow: -2.5px -1px 2px rgba(0,0,0,0.3) inset, -2px -1px 5px rgba(0,0,0,0.1) inset,-1px -1px 8px rgba(0,0,0,0.05) inset,3.5px 1.5px 2px rgba(0,0,0,0.2);
+    color: white;
+}
+
+.aboutus-photos-box{
+    padding: 5% 1% 5% 0%;
+}
+
+.aboutus-photos{
+    padding: 1.5%;
+/*    width: 100%;*/
+}
+
+.aboutus-images{
+    width: 100%;
+/*    border: 7px solid #FC6767,3px solid black;*/
+    border-radius: 3%;
+/*    box-shadow: 5px 5px 4px #999 inset ;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.four-reason{
+    font-family: 'Raleway', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    color: white;
+    text-align: center;
+    background-image: url(../images/team-background.jpg);
+    padding: 3%;
+    font-size: 260%;
+    text-transform: capitalize;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.four-reason-section-row{}
+
+.four-reason-section-col1{
+    text-align: center;
+    padding: 8% 10%;
+}
+
+.four-reason-section-col1-image{
+    width: 16.5%;
+}
+
+.four-reason-section-col1-title{
+    font-family: 'Raleway', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 190%;
+    padding: 3% 0%;
+}
+
+.four-reason-section-col1-description{
+    
+}
+
+.four-reason-section-col2{
+    padding: 0%;
+    background-color: black;
+}
+
+.four-reason-section-col2-image{
+    width: 100%;
+    padding: 0%;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutus-section2{
+    padding: 6% 0%;
+    background-image: linear-gradient(to right, rgba(255, 95, 72, 0.95),rgba(252, 185, 42, 0.9));
+    color: white;
+}
+
+.aboutus-section2-col1{
+    font-size: 350%;
+    text-align: end;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    padding-right: 3%;
+    border-right: 3px solid orangered;
+    color: #f1f1f1;
+    line-height: 130%
+}
+
+.aboutus-section2-col2{
+    padding: 0% 13% 0% 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutus-team-member{
+    padding: 8% 0%;
+    background-color: #f6f6f6;
+}
+
+.aboutus-team-member-col1{
+    padding: 0% 10.6%;
+}
+
+.aboutus-team-member-imagebox{
+    width: 100%;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3), 0px 0px 1px rgba(0,0,0,0.35);
+    border-radius: 2%;
+    overflow: hidden;
+    text-align: center;
+    background-image: radial-gradient(rgba(0,0,0,0.0) ,rgba(0,0,0,0.2))
+}
+
+.aboutus-team-member-image{
+    width: 100%;
+    filter: drop-shadow(3px 0px 5px rgba(0,0,0,0.3)) drop-shadow(0px 0px 10px rgba(0,0,0,0.2)) ;
+}
+
+.aboutus-team-member-position{
+    font-family: "Montserrat", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(0,0,0,0.4);
+    padding-top: 2%;
+    background-color: white;
+}
+
+.aboutus-team-member-name{
+    font-family: 'Rubik',sans-serif;
+    font-size: 140%;
+    padding-bottom: 4%;
+    background-color: white;
+}
+
+.aboutus-team-member-col2{
+    padding-top: 6%;
+    padding-right: 5%;
+    text-align: right;
+}
+
+.aboutus-team-member-col2-line1{
+    font-family: 'Dancing Script', cursive;
+/*    color: orangered;*/
+    font-size: 200%;
+    font-weight: 600;
+    padding-left: 9.5%;
+}
+
+.aboutus-team-member-col2-line2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 350%;
+    line-height: 100%;
+    padding: 0.5% 0% 4% 9.5%;
+    color: #FC6767;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.use-our-resources{
+    background-image: linear-gradient(to right,rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(../images/use-our-resources-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.use-our-resources-container{
+    backdrop-filter: blur(1.5px);
+    padding: 8% 0%;    
+    margin: 0%;
+}
+
+.use-our-resources-headingbox{
+    padding-left: 12%;
+}
+.use-our-resources-heading{
+    color: #FFD909;
+    font-family: 'Rubik', sans-serif;
+    font-size: 600%;
+    line-height: 100%;
+}
+
+.use-our-resources-title{
+    font-family: Pacifico, cursive;
+    color: white;
+    font-size: 180%;
+    padding: 4% 0%;
+}
+
+.use-our-resources-listbox{
+    padding: 2% 0% 0% 5%;
+}
+
+.use-our-resources-list{
+    list-style: none;
+    font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 600;
+    line-height: 260%;
+    letter-spacing: -1;
+/*    padding-left: 2%;*/
+}
+
+.use-our-resources-button{
+/*    background: linear-gradient(to right, rgba(255,255,255,1),rgba(255,255,255,0.9));*/
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 3% 7%;
+    color: black;
+    margin-left: 5%;
+    letter-spacing: -1;
+    border: none;
+}
+
+.use-our-resources-button:hover{
+    box-shadow: -2.5px -1px 2px rgba(0,0,0,0.3) inset, -2px -1px 5px rgba(0,0,0,0.1) inset,-1px -1px 8px rgba(0,0,0,0.05) inset,3.5px 1.5px 2px rgba(0,0,0,0.6);
+    color: white;
+    letter-spacing: -0.9px;
+    background-color: #FFD909;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.founders-messagebox{
+/*    padding: 8% 0% 8% 11%;*/
+    background: linear-gradient(to right, rgba(242,243,238,1) 68%, white 25%);
+}
+
+.founders-messageboxcol1{
+    padding: 12% 0% 12% 11%;
+}
+
+.founders-message-heading{
+    font-family: 'Rubik' ,sans-serif;
+    font-size: 530%;
+/*    font-weight: 700;*/
+    line-height: 100%;
+    letter-spacing: -2;
+}
+
+.founders-message{
+    color: rgba(0,0,0,0.5);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    padding: 6% 8% 6% 0%;
+    letter-spacing: -1;
+}
+
+.founders-name{
+    font-family: Pacifico, cursive;
+    font-size: 180%
+}
+
+.founders-imagebox{
+    padding: 6% 0% 6% 0%;
+}
+
+.founders-image{
+    width: 73%;
+    border: 30px solid white;
+    border-bottom: 90px solid white;
+    box-shadow: 0px 0px 25px rgba(165,159,139,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px){
+    .header{
+        padding-top: 16%;
+    }
+    .header-heading{
+        font-size: 250%;
+        line-height: 100%;
+        padding-bottom: 3%;
+    }
+    .header-slogan{
+        padding: 0% 2%
+    }
+    .header-curve-line{
+        width: 15%;
+    }
+    
+    
+    
+    
+    
+    .aboutus-section{
+    padding: 9% 0% 8% 8%
+}
+    .aboutus-section-heading{
+        font-size: 160%;
+    }
+    .aboutus-section-button{
+        font-size: 90%;
+        padding: 3% 6%;
+    }
+    .aboutus-photos-box{
+        padding: 5% 4% 5% 4%;
+    }
+    
+    
+    
+    
+    .four-reason-section-row{
+        padding-bottom: 8%;
+    }
+    .four-reason-section-col1{
+        padding: 8% 8%;
+    }
+    .four-reason-section-col1-image{
+        width: 22%;
+    }
+    .four-reason-section-col1-title{
+        font-size: 180%
+    }
+    
+    
+    
+    
+    
+    
+    
+    .aboutus-section2-col1{
+        border: none;
+        font-size: 300%;
+        text-align: start;
+    }
+    .aboutus-section2-col2{
+        padding: 5% 4% 6% 4%;
+    }
+    .aboutus-team-member-col1{
+        padding: 0% 5%;
+    }
+    .aboutus-team-member-position{
+        font-size: 84%;
+    }
+    .aboutus-team-member-name{
+        font-size: 100%
+    }
+    
+    
+    
+    
+    
+    
+    .use-our-resources{
+        padding: 0%;
+        margin: 0%;
+    }
+    .use-our-resources-headingbox{
+        padding-left: 10%;
+    }
+    .use-our-resources-heading{
+        font-size: 350%;
+    }
+    .use-our-resources-title{
+        font-size: 160%
+    }
+    .use-our-resources-list{
+        margin: 0%;
+        padding: 0% 0% 5% 9%;
+        font-size: 90%;
+    }
+    .use-our-resources-button{
+        margin-left: 5%;
+        padding: 2.4% 7.2%;
+    }
+    
+    
+    
+    
+    .founders-messagebox{
+        background: linear-gradient(to right, rgba(242,243,238,1) 50%, white 25%);
+    }
+    .founders-messageboxcol1{
+        padding: 12% 0% 12% 6%;
+        background-color: rgba(242,243,238,1);
+    }
+    .founders-message-heading{
+        font-size: 400%;
+    }
+    .founders-name{
+        font-size: 180%;
+    }
+    .founders-imagebox{
+        padding: 12% 8% 10% 8%;
+    }
+    .founders-image{
+        width: 100%;
+        border: 20px solid white;
+        border-bottom: 50px solid white;
+    }
+    
+    
+
+    
+    
+    
+    
+}
