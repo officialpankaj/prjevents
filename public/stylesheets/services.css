@@ -1,0 +1,259 @@
+.services-header{
+    background-image: linear-gradient(to right, rgba(255, 95, 72, 0.95),rgba(252, 185, 42, 0.8)), url(../images/services-header-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12% 0% 8% 0%;
+}
+
+.services-header-heading{
+    font-family: 'Raleway', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 500%;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 4px rgb(0,0,0,0.3);
+    line-height: 100%
+    
+}
+
+.services-header-title{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.servicebox{
+    padding: 0% 12%;
+    margin: 0%;
+}
+
+.service-imagebox{
+    padding: 8% 0% 8% 0%;    
+}
+
+.service-image{
+    width: 100%;
+}
+
+.service-detailbox{
+    padding: 8% 0% 8% 2.5%;
+}
+
+.service-number{
+    font-family: 'Roboto', sans-serif;
+    font-size: 370%;
+    font-weight: 900;
+    line-height: 80%;
+    color: rgba(255, 69, 0, 0.5);
+}
+
+.service-descriptionbox{
+    padding-left: 5%;
+}
+
+.service-title{
+    font-family: 'Dosis',sans-serif;
+    font-size: 250%;
+    margin-top: -7%
+}
+
+.service-description{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    padding-top: 3%;
+}
+
+.service-view-button{
+    background: linear-gradient(to right, rgba(255, 99, 0),rgb(255, 69, 0));
+    padding: 2.5% 6%;
+    color: white;
+    font-size: 85%;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
+.services-statsbox{
+    padding:1% 1%;
+    font-weight: 700;
+    
+}
+
+.services-stats-icon{
+    color: rgba(255, 69, 0, 0.6);
+    padding: 1%;
+}
+
+.service-view-button:hover{
+    background: linear-gradient(to right, rgba(255, 99, 0),rgb(255, 09, 10));
+    color: white;
+    letter-spacing: 0.1px;
+    box-shadow: -2.5px -1px 2px rgba(0,0,0,0.3) inset, -2px -1px 5px rgba(0,0,0,0.1) inset,-1px -1px 8px rgba(0,0,0,0.05) inset,0px -3.5px 2px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service-special-event{
+/*    padding: 5% 0%;*/
+    background-image: linear-gradient(to right, rgba(50,190,155,0.95),rgba(0,205,255,0.95)), url(../images/special-event-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-special-event-col1{
+    padding: 26% 0% 26% 35%;
+    width: 100%;
+}
+
+.service-special-event-col1-heading{
+    font-family: Dosis;
+    color: white;
+    font-size: 200%;
+    font-weight: 400;
+    line-height: 120%;
+    padding-bottom: 5%;
+}
+
+.service-special-event-col1-description{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+/*    color: rgba(0,0,0,0.9);*/
+    color: white;
+}
+
+.service-special-event-imagebox{
+    padding: 4% 4% 5% 0%;
+}
+
+.service-special-event-image{
+    width: 100%
+}
+
+.service-special-buttonbox{
+    padding: 65% 0%;
+/*    margin: auto 0%;*/
+}
+
+.service-special-buttonbox-title{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    padding: 2% 8%;
+}
+
+
+.service-special-button{
+    background: linear-gradient(to right, rgba(255,0,0,0.9),rgba(255,0,0,0.9));
+    padding: 3% 8%;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80%;
+    letter-spacing: 0.2px;
+    border: none;
+    text-decoration: none;
+}
+
+.service-special-button:hover{
+    color: white;
+    letter-spacing: 0.3px;
+    box-shadow: -2.5px -1px 2px rgba(0,0,0,0.3) inset, -2px -1px 5px rgba(0,0,0,0.1) inset,-1px -1px 8px rgba(0,0,0,0.05) inset,3.5px 1.5px 2px rgba(0,0,0,0.2);
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px){
+    .services-header{
+        padding: 18% 4% 8% 4%;
+    }
+    .services-header-heading{
+        font-size: 260%;
+        line-height: 120%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .servicebox{
+        padding: 0% 6%;
+        margin: 0%;
+    }
+    .service-number{
+        line-height: 35%;
+    }
+    .service-view-button{
+        margin-top: 5%;
+    }
+    
+    
+    
+    
+    
+    
+    .service-special-event-col1{
+        padding: 15% 8% 10% 9%;
+    }
+    .service-special-event-imagebox{
+        padding: 4% 4% 5% 1%;
+    }
+    .service-special-buttonbox{
+        padding: 0% 0% 8% 0%;
+        text-align: center;
+    }
+    .service-special-buttonbox-title{
+        padding-left: 9%;
+    }
+    
+}

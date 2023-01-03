@@ -1,0 +1,131 @@
+.contactus-header {
+  padding: 10% 0 6% 12%;
+  background-image: linear-gradient(to right, rgba(255, 95, 72, 0.95), rgba(252, 185, 42, 0.8)), url(../images/contactus-header-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contactus-header-heading {
+  font-family: Rubik, sans-serif;
+  font-size: 500%;
+  letter-spacing: -3;
+  line-height: 110%;
+  color: #ffd909;
+}
+.contactus-header-title {
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 100%;
+  font-weight: 500;
+  padding-left: 0.5%;
+}
+.contactus-main-content {
+  padding: 0;
+  background: linear-gradient(to left, rgba(242, 243, 238, 1) 67%, #fff 20%);
+}
+.contactus-info {
+  padding: 9% 0;
+  font-family: Montserrat, sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+}
+.contactus-info-line1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 180%;
+  font-weight: 600;
+  color: #ff4500;
+}
+.contactus-info-line2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 220%;
+  font-weight: 800;
+  color: #000;
+}
+.contactus-info-line3 {
+  font-weight: 500;
+  padding: 3% 0;
+}
+.contactus-info-line4 {
+  padding: 1.5% 0;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+}
+.contactus-info-line4:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+}
+.contactus-info-icon {
+  padding: 2%;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 6.5%;
+  text-align: center;
+  color: #ff4500;
+}
+.contactus-info-messageus-buttonbox {
+  padding: 4% 0 0 4%;
+}
+.contactus-info-messageus-button {
+  background: linear-gradient(orangered, #ff4500);
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 2% 6%;
+  border: none;
+}
+.contactus-info-messageus-button:hover {
+  box-shadow: -2.5px -1px 2px rgba(0, 0, 0, 0.3) inset, -2px -1px 5px rgba(0, 0, 0, 0.1) inset, -1px -1px 8px rgba(0, 0, 0, 0.05) inset, 3.5px 1.5px 2px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  background: linear-gradient(to right, #ff4500, red);
+  letter-spacing: 0.1px;
+}
+.mapbox {
+  padding: 4% 3% 4% 12%;
+}
+.map {
+  width: 100%;
+  height: 600px;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 500px) {
+  .contactus-header {
+    padding: 20% 5% 6% 8%;
+  }
+  .contactus-header-heading {
+    font-size: 300%;
+  }
+  .contactus-main-content {
+    padding: 0;
+    background: linear-gradient(to left, rgba(242, 243, 238, 1) 50%, #fff 20%);
+  }
+  .contactus-info-line1 {
+    font-size: 150%;
+    line-height: 100%;
+  }
+  .contactus-info {
+    padding: 9% 6%;
+    background-color: rgba(242, 243, 238);
+  }
+  .contactus-info-line4 {
+    padding: 1.5% 0 1.5% 3%;
+    font-size: 90%;
+  }
+  .contactus-info-icon {
+    width: 8.5%;
+  }
+  .contactus-info-messageus-buttonbox {
+    padding-left: 0;
+    padding-top: 6%;
+  }
+  .contactus-info-messageus-button {
+    padding: 2% 7%;
+  }
+  .mapbox {
+    padding: 8% 7% 8% 7%;
+  }
+  .map {
+    height: 300px;
+  }
+}
